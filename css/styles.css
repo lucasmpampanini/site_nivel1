@@ -1,0 +1,22 @@
+.botaonav {
+  position: relative;
+  bottom: 100px;
+  left: 1px;
+  border-radius: 8px;
+  background-color: rgb(0,0,0, 0.5);
+}
+
+.nome {
+  position: relative;
+  bottom: 220px;
+  color: white;
+  border: solid;
+  background-color: rgb(0,0,0, 0.5);
+}
+
+.imgtop { 
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  border-radius: 8px;
+}
