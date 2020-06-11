@@ -16,7 +16,10 @@
     <header>
         <div class="container">
             <img src="img/carros3.jpg" class="imgtop">
-            <div class="nome text-center">
+            <div class="nome text-center d-none d-sm-block">
+                <h1><strong>Nome da funilaria</strong></h1>
+            </div>
+            <div class="nomebaixo text-center d-block d-sm-none">
                 <h1><strong>Nome da funilaria</strong></h1>
             </div>
             <div class="botaonav">
@@ -86,14 +89,43 @@
         <section id="contato">
            <div class="container contatodiv">
                 <h2 style="color: white">Contato</h2>
-                <div class="d-none d-xl-block">
-                    <a href="https://wa.me/5511946834920" target="_blank"><button type="button" class="btn btn-outline-light"><img src="img/whatsapp.png" class="img"></button></a>
-                </div>
-                <div class="d-xl-none">
-                    <a href="whatsapp://send?phone=5511946834920"><button type="button" class="btn btn-outline-light"><img src="img/whatsapp.png" class="img"></button></a>
-                </div>
-                <a href="mailto:lmp.pampanini@gmail.com"><button type="button" class="btn btn-outline-light"><img src="img/gmail.png" style="width: 50px;"></button></a>
-           </div> 
+                <nav>
+                    <ul class="nav justify-content-left">
+                        <li class="nav-item">
+                            <div class="d-none d-xl-block">
+                                <a href="https://wa.me/5511946834920" target="_blank"><button type="button" class="btn btn-outline-light"><img src="img/whatsapp.png" class="img"></button></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-xl-none">
+                                <a href="whatsapp://send?phone=5511946834920"><button type="button" class="btn btn-outline-light"><img src="img/whatsapp.png" class="img"></button></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-xl-none">
+                                <a href="mailto:lmp.pampanini@gmail.com">
+                                    <button type="button" class="btn btn-outline-light"><img src="img/email.png" style="width: 50px;"></button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                           <div class="d-none d-xl-block">
+                                <a href="https://outlook.live.com/mail/0" target="_blank">
+                                    <button type="button" class="btn btn-outline-light"><img src="img/outlook.png" style="width: 50px;"></button>
+                                </a>
+                            </div> 
+                        </li>
+                        <li class="nav-item">
+                            
+                            <div class="d-none d-xl-block">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lmp.pampanini@gmail.com" target="_blank">
+                                    <button type="button" class="btn btn-outline-light"><img src="img/gmail.png" style="width: 50px;"></button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>      
         </section>
     </main>
   </body>
